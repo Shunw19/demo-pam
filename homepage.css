@@ -1,0 +1,103 @@
+
+  nav {
+      margin-top: 35px;
+  }
+
+  .navbar-brand {
+    font-size: 38px;
+    box-sizing: border-box;
+    font-family: 'Didot', sans-serif;
+    color: #ec808d;
+    line-height: normal;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: 'Didot-Bold', 'Didot Bold', 'Didot', sans-serif;
+    font-weight: 300;
+    color: #7f7f7f;
+    text-align: left;
+  }
+
+
+  #searchbar {
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+    
+  }
+
+  button {
+      border:none;
+      background-color: transparent;
+  }
+
+  li:nth-of-type(2){
+      margin: 0 20px 0 0;
+  }
+
+  
+  .sectionTitle {
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Didot-Bold', 'Didot Bold', 'Didot', sans-serif;
+    font-weight: 700;
+    color: rgba(236, 128, 141, 0.57);
+    text-align: left;
+    line-height: normal;
+    padding: 24px 16px 16px 16px;
+  }
+
+ 
+
+
+  div.gallery img {
+    width:120px;
+    height: 160px;
+    padding: 3px;
+    border-radius: 10%;
+  }
+
+#imgGallery {
+  padding: 24px 16px 16px 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+select {
+    margin: 10px 0;
+    padding: 2px;
+    width: 158px;
+    font-size:0.9rem;
+  }
+
+#for-you {
+  margin: 0;
+}
+
+#pinkbtn {
+  width: 130px;
+  height: 29px;
+  border-radius: 3px;
+  background-color: #ec808d;
+  box-sizing: border-box;
+  font-family: 'Arial Regular', 'Arial', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border:none;
+  padding: 5px;
+}
+
+h2{
+  color:#aaaaaa;
+}

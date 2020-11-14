@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pick a Movie</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="container col-9">
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Pick-A-Mov</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Browse All Movies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pick A Movie</a>
+            </li> 
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input id='searchbar' class="form-control mr-sm-2" type="search" aria-label="Search">
+            <button class="btn my-2 my-sm-0" type="submit"><img src="assets/searchIcon.svg" alt=""></button>
+          </form>
+        </div>
+    </nav>
+    </div> 
+
+    <!-- Movies for her -->
+    <div class="container col-9">
+      <h5 class='sectionTitle'>Movies for Her</h5>
+      <div class="row" id="imgGallery">
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="https://upload.wikimedia.org/wikipedia/en/5/54/RBGfilmPoster.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Pick a mov for you -->
+    <div class="container col-9">
+      <div class="row">
+        <div class="container col-6" id='for-you'>
+          <h5 class="sectionTitle">Pick-A-Mov For You</h5>
+          <div class="row">
+            <div class="container col-6 px-4 mx-3">
+              <div class="audParam">
+                <select name="audience" id="aud-select">
+                  <option value="">Audience</option>
+                  <option value="qualityTime">Quality Time</option>
+                  <option value="dateNight">Date Night</option>
+                  <option value="familyGathering">Family Gathering</option>
+                  <option value="moreMerrier">The More The Merrier</option>
+                </select>
+              </div> 
+              <div class="audParam">
+                <select name="audience" id="aud-select">
+                  <option value="">Audience</option>
+                  <option value="qualityTime">Quality Time</option>
+                  <option value="dateNight">Date Night</option>
+                  <option value="familyGathering">Family Gathering</option>
+                  <option value="moreMerrier">The More The Merrier</option>
+                </select>
+              </div> 
+              <div class="audParam">
+                <select name="audience" id="aud-select">
+                  <option value="">Audience</option>
+                  <option value="qualityTime">Quality Time</option>
+                  <option value="dateNight">Date Night</option>
+                  <option value="familyGathering">Family Gathering</option>
+                  <option value="moreMerrier">The More The Merrier</option>
+                </select>
+              </div> 
+            </div> 
+
+            <!-- Get results -->
+            <div class="container col-5" id="buttons">
+              <div>
+                <button id='pinkbtn'>Pick For Me</button>
+              </div>
+              <div>
+                <button id='pinkbtn'>Feeling Lucky</button>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        <!-- Movies You Might Like -->
+        <div class="container col-6">
+          <h5 class='sectionTitle'>Movies You Might Like</h5>
+          <div class="row" id="imgGallery">
+            <div class="gallery">
+              <img src="assets/coldPursuit.jpeg" alt="">
+            </div>
+            <div class="gallery">
+              <img src="assets/coldPursuit.jpeg" alt="">
+            </div>
+            <div class="gallery">
+              <img src="assets/coldPursuit.jpeg" alt="">
+            </div>
+            <div class="gallery">
+              <img src="assets/coldPursuit.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Editor's choice -->
+    <div class="container col-9">
+      <h5 class='sectionTitle'>Editor's Choice</h5>
+      <div class="row" id="imgGallery">
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+        <div class="gallery">
+          <img src="assets/prisoners.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured today -->
+    <div class="container col-9">
+      <h5 class="sectionTitle">Featured Today</h5>
+      <div class="row">
+        <!-- Small poster -->
+        <div class="container col-5">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters px-4">
+              <div class="container col-md-2 d-flex align-items-center">
+                <h2>1.</h2>
+              </div>
+              <div class="col-md-5">
+                <img src="assets/loveAndMonsters.jpeg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-5">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Clip -->
+        <div class="container col-7">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters px-4">
+              <div class="col-md-9">
+                <img src="assets/LAMclip.jpeg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-3">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Small poster -->
+        <div class="container col-5">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters px-4">
+              <div class="container col-md-2 d-flex align-items-center">
+                <h2>2.</h2>
+              </div>
+              <div class="col-md-5">
+                <img src="assets/loveAndMonsters.jpeg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-5">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Clip -->
+        <div class="container col-7">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters px-4">
+              <div class="col-md-9">
+                <img src="assets/LAMclip.jpeg" class="card-img" alt="...">
+              </div>
+              <div class="col-md-3">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+   
+      
+</body>
+</html>
